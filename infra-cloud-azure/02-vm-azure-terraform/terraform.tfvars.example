@@ -1,0 +1,7 @@
+# Copier ce fichier en terraform.tfvars et renseigner vos propres valeurs.
+# NE JAMAIS versionner le vrai terraform.tfvars (voir .gitignore).
+resource_group_name = "terraform"
+admin_username      = "votre_user"
+public_key_path     = "C:/Users/votre_user/.ssh/id_ed25519.pub"
+location            = "switzerlandnorth"
+subscription_id     = "<VOTRE_SUBSCRIPTION_ID>"
